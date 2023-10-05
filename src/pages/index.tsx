@@ -52,10 +52,10 @@ const HubData = [
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center gap-5 p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center gap-5 px-24  ${inter.className}`}
     >
-      <h1 className="text-primary text-5xl font-bold">Welcome to Nova</h1>
-      <div className="grid grid-cols-4 gap-10">
+      <h1 className="text-primary text-5xl font-bold py-10">Welcome to Nova</h1>
+      <div className="grid lg:grid-cols-2   xl:grid-cols-3 grid-cols-1 gap-16">
         {HubData.map((hub) => {
           return (
             <HubCard
